@@ -38,16 +38,16 @@ def RightClick():
 
 while keyboard.is_pressed('q') == False: # Press q to close script
 
-    if keyboard.is_pressed('a'):
+    while keyboard.is_pressed('a'):
         moveLeft()
 
-    if keyboard.is_pressed('d'):
+    while keyboard.is_pressed('d'):
         moveRight()
 
-    if keyboard.is_pressed('w'):
+    while keyboard.is_pressed('w'):
         moveUp()
 
-    if keyboard.is_pressed('s'):
+    while keyboard.is_pressed('s'):
         moveDown()
 
     if keyboard.is_pressed('e'):
