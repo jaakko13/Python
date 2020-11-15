@@ -1,8 +1,7 @@
 from pyautogui import *
 import keyboard
 import pyautogui
-import win32api
-import win32con
+
 
 
 
